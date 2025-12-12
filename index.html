@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Profil TKJ - 15 - Rezha Ofta Vianus</title>
+  <style>
+    
+    :root {
+      --bg: #000000;         
+      --card-bg: #111;      
+      --accent: #00bfff;       
+      --text: #e5e5e5;       
+      --muted: #888;          
+      --border: #2a2a2a;       
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .container {
+      max-width: 900px;
+      margin: 32px auto;
+      padding: 24px;
+      background: var(--card-bg);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 0 40px rgba(0, 191, 255, 0.1); 
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+    .header-text {flex:1}
+    h1 {
+      margin: 0;
+      font-size: 32px;
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .role {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+    .photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 8px; 
+      object-fit: cover;
+      border: 4px solid var(--accent);
+      box-shadow: 0 0 15px rgba(0, 191, 255, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .photo:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(0, 191, 255, 0.4);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 24px;
+      margin-top: 24px;
+    }
+    .card {
+      background: transparent; 
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+    .section-title {
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 12px;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 16px 0;
+    }
+    ul, ol {
+      padding-left: 20px;
+      line-height: 1.6;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table th {
+      background-color: #000000;
+      font-weight: 600;
+      text-align: left;
+    }
+    table td, table th {
+      padding: 10px;
+      border: 1px solid var(--border);
+    }
+    .skills td { padding: 8px 10px; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 32px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    
+    @media (max-width:800px) {
+      .grid { grid-template-columns: 1fr; }
+      header { flex-direction: column; text-align: center; }
+      .photo { margin-top: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-text">
+        <h1>Sinta Fitri Handayani</h1>
+        <div class="role">Calon Peserta UKK - Teknik Komputer dan Jaringan (TKJ)</div>
+        <div style="margin-top:10px;color:var(--muted)">Absensi: 15 &nbsp;|&nbsp; Kelas: XII TKJ 1</div>
+      </div>
+      
+      <img src="Foto TKJ 1/16.jpg" alt="Sinta Fitri Handayani" class="photo">
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card">
+          <div class="section-title">Curriculum Vitae (Singkat)</div>
+          <p><strong>Nama:</strong> Sinta Fitri Handayani</p>
+          <p><strong>Tanggal Lahir:</strong> 22-02-2008</p>
+          <p><strong>Alamat:</strong> Malang lowok permanu rt02 rw01</p>
+          <p><strong>Kontak:</strong> 083129655139</p>
+          <hr>
+          <div class="section-title">Pendidikan</div>
+          <ul>
+            <li>SMK Budi Mulia Pakisaji — Teknik Komputer & Jaringan</li>
+            <li>SMP Budi Mulia Pakisaji</li>
+          </ul>
+
+          <div style="margin-top:12px" class="section-title">Pengalaman / Portofolio</div>
+          <p><strong>Belajar Tag HTML:</strong> Memahami dasar-dasar struktur halaman web.</p>
+          <p><strong>Belajar CSS (Inline, Internal, External):</strong> Menguasai berbagai metode styling untuk tampilan web yang menarik.</p>
+
+          <div style="margin-top:12px" class="section-title">Daftar Pelajaran Produktif TKJ yang Diingat</div>
+          <ul>
+            <li>Infrastruktur Jaringan</li>
+            <li>Teknologi Jaringan Luas</li>
+            <li>Administrasi Server dan Keamanan Jaringan</li>
+          </ul>
+
+        </section>
+
+        
+        <section class="card" style="margin-top:16px">
+          <div class="section-title">Mata Pelajaran Favorit</div>
+          <ol>
+            <li><strong>pendidikan pancasila</strong>  dapat memahami nilai-nilai demokrasi, hukum, partisipasi aktif dalam kehidupan bermasyarakat dan bernegara.</li>
+            <li><strong>sejarah</b> enunjukkan bahwa sejarah bukan hanya hafalan tanggal, tapi kajian luas tentang masa lalu </li>
+           </ol>
+        </section>
+      </main>
+
+      <aside>
+        <section class="card">
+          <div class="section-title">Link & Kontak</div>
+          <p><strong>GitHub:</strong> <a href="https://github.com/VianZ647" target="_blank">https://github.com/VianZ647</a></p>
+          <p><strong>Portfolio:</strong> <a href="https://vian-ukk-pw-2025.netlify.app" target="_blank">https://vian-ukk-pw-2025.netlify.app</a></p>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <div class="section-title">Tabel Keahlian TKJ</div>
+          <table class="skills">
+            <tr><th>Keahlian</th><th>Level (1-5)</th></tr>
+            <tr><td>Setting Mikrotik</td><td>5</td></tr>
+            <tr><td>Troubleshooting Hardware & Software</td><td>4</td></tr>
+            <tr><td>Pemrograman Web</td><td>3</td></tr>
+            <tr><td>Linux Server</td><td>4</td></tr>
+            <tr><td>ISP (Fiber Optic Splicing)</td><td>4</td></tr>
+          </table>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <div class="section-title">Daftar Mata Pelajaran Favorit</div>
+          <ul>
+            <li>Infrastruktur Jaringan</li>
+            <li>Teknologi Jaringan Luas</li>
+          </ul>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <div class="section-title">Footer UKK TKJ</div>
+          <p>SMK Budi Mulia Pakisaji — UKK TKJ © 2025</p>
+        </section>
+      </aside>
+    </div>
+
+    <footer>
+      Dibuat oleh Sinta Fitri Handayani • Absensi 16 • Kelas XII TKJ 1
+    </footer>
+  </div>
+</body>
+</html>
